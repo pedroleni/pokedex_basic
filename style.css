@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "Pokemon";
+    src:url("./fonts/Pokemon\ Solid.ttf");
+}
+
+body{
+  background: -webkit-linear-gradient(90deg, #e74d6b 10%, #8cc8ac 90%);
+  background:    -moz-linear-gradient(90deg, #e74d6b 10%, #8cc8ac 90%);
+  background:     -ms-linear-gradient(90deg, #e74d6b 10%, #8cc8ac 90%);
+  background:      -o-linear-gradient(90deg, #e74d6b 10%, #8cc8ac 90%);
+  background:         linear-gradient(90deg, #e74d6b 10%, #8cc8ac 90%); 
+}
+
+span{
+    font-weight: bolder;
+}
+
+p{
+    margin: 0px;
+}
+.pokemon-container{
+    display:flex;
+    gap: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align:start;
+    
+    
+    
+}
+.Attack .AttackSpecial .speed{
+    font-family: monospace;
+}
+
+.name{
+    font-size: 30px;
+    margin-bottom: 0px;
+    font-family: 'Pokemon', sans-serif;
+    letter-spacing: 7px;
+    font-size: 30px;
+    -webkit-text-fill-color: rgb(255, 208, 0);
+    -webkit-text-stroke-color: rgba(12, 12, 245, 0.554);
+    -webkit-text-stroke-width: 2px; 
+    margin: 20px 
+}
+.number{
+    margin-top: 5px;
+}
+.name:first-letter{
+    text-transform: uppercase;
+}
+.img{
+    width: 100%;
+}
+.img-container{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    border: solid rgba(17, 27, 72, 0.678) 2px; 
+    padding:30px;
+    border-radius: 20px;
+    background-color: rgba(240, 255, 255, 0.221);
+}
+.imgPokemon{
+    width: 100%;
+    height: auto;
+
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.pokemon-block{
+    border: solid rgba(17, 27, 72, 0.678) 2px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgba(255, 235, 136, 0.31);
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
